@@ -6448,7 +6448,8 @@ var pdfjsWebLibs;
    var HOSTED_VIEWER_ORIGINS = [
     'null',
     'http://mozilla.github.io',
-    'https://mozilla.github.io'
+    'https://mozilla.github.io',
+    'https://hive-testing.s3.amazonaws.com'
    ];
    validateFileURL = function validateFileURL(file) {
     try {
